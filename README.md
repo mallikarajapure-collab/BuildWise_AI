@@ -162,14 +162,6 @@ The existing project recommender tests are also included in the test suite.
 - The development API is intended for local demonstration, not public production deployment.
 - The current chat history is held in the browser component and is not saved to a server database.
 
-## Internship Submission Checklist
-
-- [ ] Run the automated tests and verify that they pass.
-- [ ] Test the chatbot in the browser.
-- [ ] Capture a screenshot of the chat window and example responses.
-- [ ] Push the project to GitHub.
-- [ ] Publish a LinkedIn demo mentioning the GIST AI Internship and tagging coordinator Zaid Hussain Dahar.
-- [ ] Submit the task number, task title, GitHub link, LinkedIn link, and required screenshots.
 
 ## Task Information
 
