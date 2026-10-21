@@ -1,0 +1,50 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+buildwise.db
+.pytest_cache/
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+*.before-*
+*_backup.py
+*_before_*.py
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite3
+
+# Editor and operating system files
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.before-*
+*_backup.py
+*_backup
+
+*.backup
+*.backup.*

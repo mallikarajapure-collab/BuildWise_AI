@@ -1,0 +1,56 @@
+﻿[
+  {
+    "name": "Smart Study Planner",
+    "level": "Beginner",
+    "category": "Productivity",
+    "time": "1-2 weeks",
+    "skills": ["Python", "Streamlit", "Basic Logic"],
+    "description": "Create a study schedule based on subjects, deadlines and available study hours.",
+    "steps": ["Collect subjects and deadlines", "Build a scheduling algorithm", "Display the schedule", "Add progress tracking"]
+  },
+  {
+    "name": "Job Application Tracker",
+    "level": "Intermediate",
+    "category": "Career",
+    "time": "2-3 weeks",
+    "skills": ["Python", "SQLite", "Streamlit"],
+    "description": "Track job applications, interview stages and application status.",
+    "steps": ["Design application data", "Store records in SQLite", "Add search and editing", "Create application statistics"]
+  },
+  {
+    "name": "ML Model Performance Auditor",
+    "level": "Advanced",
+    "category": "AI / ML",
+    "time": "3-5 weeks",
+    "skills": ["Python", "Pandas", "Scikit-learn"],
+    "description": "Inspect model evaluation results and flag suspicious metrics or possible data leakage.",
+    "steps": ["Load a dataset", "Build a train-test evaluation workflow", "Inspect suspicious evaluation patterns", "Generate an evidence-based audit report"]
+  },
+  {
+    "name": "GitHub Portfolio Analyzer",
+    "level": "Intermediate",
+    "category": "Developer Tools",
+    "time": "2-3 weeks",
+    "skills": ["Python", "REST API", "GitHub API"],
+    "description": "Analyze public GitHub repositories and identify portfolio strengths and improvement areas.",
+    "steps": ["Collect public GitHub data", "Inspect repositories", "Build a transparent scoring system", "Generate an improvement roadmap"]
+  },
+  {
+    "name": "AI Document Assistant",
+    "level": "Advanced",
+    "category": "Generative AI",
+    "time": "3-5 weeks",
+    "skills": ["Python", "LLMs", "Embeddings"],
+    "description": "Build a document question-answering assistant grounded in uploaded documents.",
+    "steps": ["Upload documents", "Extract and split text", "Retrieve relevant passages", "Generate grounded answers"]
+  },
+  {
+    "name": "Expense Analytics Dashboard",
+    "level": "Beginner",
+    "category": "Data Analytics",
+    "time": "1-2 weeks",
+    "skills": ["Python", "Pandas", "Data Visualization"],
+    "description": "Explore spending patterns using categories, monthly totals and charts.",
+    "steps": ["Create expense entries", "Store expense records", "Calculate category totals", "Display charts"]
+  }
+]

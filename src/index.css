@@ -1,0 +1,16 @@
+﻿:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f2f3ff;
+  background: #0a0e1b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #a695ff; outline-offset: 3px; }
+::selection { color: white; background: #6e55dc; }
