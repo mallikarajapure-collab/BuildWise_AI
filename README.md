@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C2D12,50:F97316,100:FBBF24&height=210&section=header&text=BUILDWISE%20AI&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Project%20Discovery%20Assistant&descAlignY=60&descSize=16" width="100%" />
+
+</div>
+
+---
+
 ﻿# BuildWise AI — Intelligent Chatbot
 
 BuildWise AI is a project discovery and learning assistant created as part of the GIST AI Internship, Task 1: AI Basics — Intelligent Chatbot.
