@@ -1,79 +1,82 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C2D12,50:F97316,100:FBBF24&height=210&section=header&text=BUILDWISE%20AI&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Project%20Discovery%20Assistant&descAlignY=60&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,45:6366F1,100:9333EA&height=230&section=header&text=BUILDWISE%20AI&fontSize=48&fontColor=FFFFFF&fontAlignY=36&desc=Discover%20Ideas%20%E2%80%A2%20Build%20Projects%20%E2%80%A2%20Grow%20Your%20Skills&descAlignY=59&descSize=15" width="100%" alt="BuildWise AI — Discover ideas, build projects, grow your skills" />
+
+<p>
+  <strong>A project discovery and learning assistant for your next build.</strong>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Internship-GIST%20AI-6366F1?style=for-the-badge" alt="GIST AI Internship" />
+  <img src="https://img.shields.io/badge/Task-01-2563EB?style=for-the-badge" alt="Task 1" />
+  <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+</p>
 
 </div>
 
 ---
 
-﻿# BuildWise AI — Intelligent Chatbot
+## ✨ About BuildWise AI
 
-BuildWise AI is a project discovery and learning assistant created as part of the GIST AI Internship, Task 1: AI Basics — Intelligent Chatbot.
+**BuildWise AI** helps learners take the next step from *“What should I build?”* to *“How do I get started?”*
 
-The chatbot uses a Python rule-based approach to identify keywords in a user's message and return a relevant predefined response. It is available through a React web interface with a blue-purple chat design.
+Created for **GIST AI Internship — Task 1: AI Basics, Intelligent Chatbot**, the project combines a Python-based chatbot with a React chat interface. It responds to common questions about project ideas, learning skills, roadmaps, and internship preparation.
 
-## Features
+> **How it works:** The current chatbot uses predefined, keyword-based rules. It is an educational assistant—not an LLM-powered chatbot.
 
-- Greeting and welcome responses.
-- Project idea suggestions.
-- Guidance on skills to learn.
-- Step-by-step project roadmap guidance.
-- Internship and portfolio preparation tips.
-- Thank-you responses.
-- Empty-input validation and fallback responses for unknown questions.
-- React chat window with suggested prompts, loading indicator, and message history during the current chat.
-- Python HTTP API connecting the frontend to the chatbot logic.
-- Existing BuildWise AI project discovery, saved projects, and roadmap progress features.
+## 🚀 What You Can Explore
 
-## Technology Stack
+| Capability | What it does |
+|---|---|
+| 💡 Project inspiration | Suggests starter ideas such as a study planner or portfolio analyzer |
+| 🧭 Learning guidance | Recommends skills and tools to explore next |
+| 🗺️ Project roadmaps | Breaks a project into practical starting steps |
+| 🎯 Internship preparation | Shares portfolio, README, and project-explanation tips |
+| 💬 Chat interface | Provides suggested prompts, message display, and fallback replies |
+| 🛡️ Input handling | Handles blank messages, invalid input, and unknown questions |
 
-- Python — chatbot logic and HTTP API.
-- React — interactive chatbot interface.
-- Vite — frontend development server and API proxy.
-- Pytest — automated tests.
+The repository also contains the existing project-discovery experience and related saved-project and roadmap-progress work.
 
-The chatbot is rule-based and does not require an external AI API key.
+## 🎨 Project Identity
 
-## Project Structure
+<div align="center">
 
-```text
-BuildWise_AI/
-├── chatbot_api.py
-├── services/
-│   └── llm_service.py
-├── tests/
-│   ├── test_chatbot.py
-│   └── test_recommender.py
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── ChatWidget.jsx
-│   │   └── ChatWidget.css
-│   ├── package.json
-│   └── vite.config.js
-├── requirements.txt
-└── README.md
-```
+| Colour | Hex | Role |
+|:--:|:--:|---|
+| <img src="https://placehold.co/18x18/2563EB/2563EB.png" alt="Blue swatch" /> | `#2563EB` | Primary blue — clarity and trust |
+| <img src="https://placehold.co/18x18/6366F1/6366F1.png" alt="Indigo swatch" /> | `#6366F1` | Indigo — interactive accents |
+| <img src="https://placehold.co/18x18/9333EA/9333EA.png" alt="Purple swatch" /> | `#9333EA` | Purple — creativity and discovery |
+| <img src="https://placehold.co/18x18/0F172A/0F172A.png" alt="Slate swatch" /> | `#0F172A` | Deep slate — contrast and readability |
 
-## Requirements
+</div>
 
-- Python 3.10 or newer recommended.
-- Node.js and npm.
-- Git (for version control and GitHub submission).
+## 🧰 Tech Stack
 
-## Setup and Run
+- **Python** — chatbot logic and lightweight HTTP API.
+- **React** — interactive chat experience.
+- **Vite** — frontend development server and API proxy.
+- **Streamlit** — used by the existing project-discovery application.
+- **Pytest** — automated tests.
 
-### 1. Get the project
+No external AI API key is required for the rule-based chatbot.
 
-Clone your GitHub repository, or open the existing project directory.
+## ⚙️ Run Locally
+
+### Prerequisites
+
+- Python 3.10+ recommended
+- Node.js and npm
+- Git (optional, for cloning)
+
+### 1. Get the code
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/mallikarajapure-collab/BuildWise_AI.git
 cd BuildWise_AI
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL. If you already have the project locally, skip cloning.
+If the project is already on your computer, open a terminal in its root folder instead.
 
 ### 2. Install Python dependencies
 
@@ -83,48 +86,43 @@ python -m pip install -r requirements.txt
 
 ### 3. Start the chatbot API
 
-Open a terminal in the project root and run:
+From the project root, run:
 
 ```bash
 python chatbot_api.py
 ```
 
-The API listens at `http://127.0.0.1:8000`. Keep this terminal running.
+The API listens at `http://127.0.0.1:8000`. Keep this terminal open.
 
-### 4. Install frontend dependencies
+### 4. Install frontend packages
 
-Open a second terminal:
+Open a **second terminal** in the project root:
 
 ```bash
-cd frontend
 npm install
 ```
 
-### 5. Start the React website
-
-In the frontend terminal, run:
+### 5. Start the frontend
 
 ```bash
 npm run dev
 ```
 
-Open the local URL printed by Vite, usually `http://localhost:5174`.
+Open the local URL printed by Vite in your terminal. The API and frontend both need to be running for chatbot replies to work.
 
-Click **Ask BuildWise** to open the chatbot and try questions such as:
+### Try asking
 
-- `hello`
+- `Hello`
 - `Suggest a project`
 - `What skills should I learn?`
 - `Give me a roadmap`
 - `How do I prepare for an internship?`
 
-The Python API and React development server must both be running for chat responses to work.
-
-## API
+## 🔌 Chat API
 
 **Endpoint:** `POST /api/chat`
 
-**Request JSON:**
+**Request**
 
 ```json
 {
@@ -132,7 +130,7 @@ The Python API and React development server must both be running for chat respon
 }
 ```
 
-**Successful response JSON:**
+**Response shape**
 
 ```json
 {
@@ -140,39 +138,55 @@ The Python API and React development server must both be running for chat respon
 }
 ```
 
-The response text is generated by the existing rule-based function in `services/llm_service.py`.
+During local development, Vite proxies `/api` requests to the Python server at `127.0.0.1:8000`.
 
-## Run Automated Tests
+## 🧪 Run Tests
 
-From the project root:
+From the repository root:
 
 ```bash
 python -m pytest tests/ -v
 ```
 
-The chatbot tests cover greetings, project suggestions, skills guidance, roadmap guidance, internship guidance, thanks, empty messages, unknown questions, and invalid input types.
+The chatbot tests cover common intents, empty messages, unknown questions, and invalid input. The repository also includes project-recommender tests.
 
-The existing project recommender tests are also included in the test suite.
+## 🧠 How It Works
 
-## How It Works
+```text
+User message
+    ↓
+React chat interface
+    ↓  POST /api/chat
+Vite development proxy
+    ↓
+Python HTTP API
+    ↓
+Keyword and rule matching
+    ↓
+Predefined reply returned as JSON
+    ↓
+Reply displayed in chat
+```
 
-1. The user types a message into the React chat window.
-2. React sends the message as JSON to `/api/chat`.
-3. Vite forwards the request to the Python HTTP API during local development.
-4. The API calls `get_chatbot_response()` in `services/llm_service.py`.
-5. The rule-based chatbot checks the message against predefined keywords and selects a response.
-6. The API returns the reply as JSON, and React displays it in the conversation.
+## ⚖️ Current Scope & Limitations
 
-## Limitations
+- Replies are selected from predefined responses; they are not generated by a large language model.
+- The chatbot only recognises topics covered by its current keyword rules.
+- Chat messages are kept in the current browser session; the chatbot API does not save conversation history to a server database.
+- The local development server is intended for learning and demonstration, not public production deployment.
 
-- Responses are predefined rather than generated by a large language model.
-- The chatbot understands only the topics and keywords covered by its rules.
-- The development API is intended for local demonstration, not public production deployment.
-- The current chat history is held in the browser component and is not saved to a server database.
+## 🌱 Project Context
 
+- **Program:** GIST AI Internship
+- **Task:** Task 1 — AI Basics: Intelligent Chatbot
+- **Project:** BuildWise AI
 
-## Task Information
+---
 
-**Internship:** GIST AI Internship  
-**Task:** Task 1 — AI Basics: Intelligent Chatbot  
-**Project:** BuildWise AI — Project Mentor
+<div align="center">
+
+**Built to help turn a learning question into a project plan.**
+
+<sub>Explore • Learn • Build • Repeat</sub>
+
+</div>
